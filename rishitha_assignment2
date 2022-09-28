@@ -1,4 +1,9 @@
-# Assignment 2 to make a simple calculator
+# Assignment 2 
+#what is r+,w+ and a+?
+#answer:The r means reading file; r+ means reading and writing the file.The w means writing file; w+ means reading and writing the file.#The a means writing file,append mode; a+ means reading and writing file, append mode.
+
+
+#To make a simple calculator
 
 # Defining a function to add two numbers
 def add(a, b):
@@ -29,20 +34,20 @@ while True:
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        number 1 = float(input("Enter first number: "))
-        number 2 = float(input("Enter second number: "))
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
 
         if choice == '1':
-            print(number 1, "+", number 2, "=", add(number 1, number 2))
+            print(num1, "+", num2, "=", add(num1, num2))
 
         elif choice == '2':
-            print(number 1, "-", number 2, "=", subtract(number 1, number 2))
+            print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(number 1, "*", number 2, "=", multiply(number 1, number 2))
+            print(num1, "*", num2, "=", multiply(num1, num2))
 
         elif choice == '4':
-            print(number 1, "/", number 2, "=", divide(number 1, number 2))
+            print(num1, "/", num2, "=", divide(num1, num2))
         
         # checking if user wants another calculation
         # break the while loop if answer is no
